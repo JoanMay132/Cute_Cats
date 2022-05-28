@@ -1,0 +1,70 @@
+<!DOCTYPE html> <!--Always start with the doctype-->
+<html lang="en"> <!--Opening tag-->
+    <head>
+        <title>CatPhotoApp</title>
+    </head>
+    <body>
+
+       <!--It is one element, it is holding content-->
+       <!--h1,h2,h3..h6 is to define headings-->
+        <!--HTML is made up of elements-->
+        <!-- A "p" element is used to create paragraph text on
+        websites.-->
+        <h2>CatPhotoApp</h2>
+        
+        <main>
+            <h3>Cat Photos</h3>
+            <!--TODO: add link to cat photos-->
+            <p>Click here to view more cat photos. <!--We need to indent all of the everything within the main element-->
+            <br>
+            <a href="https://www.youtube.com/watch?v=_9ZKOLVEjJI" target="blank">Video de gatitos
+
+            </p>
+
+            </a>
+            <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsocTSgQSSN5kcPgCTJmx_hzA3GrOeXDcF7DevRscWXHQSLDKetPQgs3CxfSyRG4vQ0FY&usqp=CAU"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsocTSgQSSN5kcPgCTJmx_hzA3GrOeXDcF7DevRscWXHQSLDKetPQgs3CxfSyRG4vQ0FY&usqp=CAU" 
+            alt="Gatito lindo"> 
+            </a>
+            <h3>Cat Lists</h3> <!--How to create lists in HTML?-->
+            <div class="lists">
+                <p>Things Cats <em>Love</em>:</p> <!--Emphasize the word "love"-->
+                <ul> <!--This "ul" element is an unordered list-->
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <img src="lasagna.jpg" alt="lasagna">
+                <p>Things cats <strong>hate</strong>:</p> <!--bold the word-->
+                <ol> <!--"ol" is an ordered list. Order list is numbered-->
+                    <li>Other cats</li>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                </ol>
+            </div>
+            <img src="cats.jpg" alt="bad cats">
+            <form action="/submit-cat-photo"> <!--Allow you to introduce text-->
+                <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" checked> Indoor</label> 
+                <br><!--type="radio" is a kind of circular option-->
+
+                <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
+                <br> <!--name="indoor-outdoor permite elegir solo una opción"-->
+
+                <label for="loving"><input id="loving" type="checkbox" name="personality" checked>Loving</label> <!--we can automatically check-->
+                <br>
+                <label for="lazy"><input id="lazy" type="checkbox" name="personality">Lazy</label>
+                <br>
+                <label for="energetic"><input id="energetic" type="checkbox" name="personality">Energetic</label>
+                <br>
+
+                <input type="text" placeholder="Cat photo URL" required> <!--required option--> <!--Give u a description about what input into the input box-->
+                
+                <button type="submit">Submit</button> <!--El botón para realizar cierta acción-->
+
+            </form>
+        </main>
+        <footer>
+            <p><small>No Copyright - <a href="https://freecodecamp.org" target="blank">freeCodeCamp.org</a></small></p>
+       <!--we can make the footer smaller (text smaller)-->
+        </footer>
+    <body>
+</html> <!--Closing tag-->  
